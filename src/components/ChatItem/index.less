@@ -1,0 +1,68 @@
+@import '@/styles/font.less';
+
+.orca-chat-item {
+  display: flex;
+
+  &__avatar {
+    flex: 0 0 auto;
+    margin-right: 12px;
+
+    .avatar {
+      display: block;
+      width: 30px;
+      height: 30px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 50%;
+
+      &.default-icon {
+        background: #409EFF;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        line-height: 29px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  &__user {
+    flex: 1 0 0;
+
+    &-info {
+      color: #999999;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+
+      .sender-type__tag {
+        margin-right: 7px;
+        padding: 0 8px;
+
+        &.tag-0 {
+          color: #67C23A;
+          background: #D9ECFF;
+        }
+        &.tag-1 {
+          color: #67C23A;
+          background: #E1F3D8;
+        }
+        &.tag-3 {
+          color: #67C23A;
+          background: #E1F3D8;
+        }
+      }
+
+      .user-name {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  &__children {}
+
+  &__operations {
+    margin-top: 10px;
+  }
+}

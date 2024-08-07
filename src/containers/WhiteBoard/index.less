@@ -1,0 +1,37 @@
+.white-board-container {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__content {
+    flex: 1 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+
+    .canvas-area {
+      box-sizing: border-box;
+    }
+  }
+
+  &__operate {
+    flex: 0 0 auto;
+    margin: 8px 0;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .action-btn-group {
+      .anticon {
+        font-size: 20px;
+      }
+    }
+  }
+}

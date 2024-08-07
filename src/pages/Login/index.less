@@ -1,0 +1,58 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+
+  &-left {
+    width: 56vw;
+    height: 100%;
+    background: #356EE9;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .company-desc {
+      &__name {
+        text-align: center;
+        color: #e8ebee;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: linear-gradient(45deg, #8a8436, #cbbabe);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+
+  &-right {
+    flex: 1;
+    height: 100%;
+    background-color: #fff;
+    padding: 24vh 7vw;
+    box-sizing: border-box;
+
+    .please {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 65px;
+    }
+
+    .login-form {
+      &-item {
+        height: 48px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+      }
+
+      .login-btn {
+        height: 48px;
+        margin-top: 24px;
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+@import '@/styles/font.less';
+
+.chat-item {
+  &__msg {
+    margin-top: 12px;
+    word-break: break-all;
+
+    .wx-orca-emoji__img {
+      vertical-align: -6px;
+    }
+
+    .img-box {
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .msg-image {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
+
+  .quota-data {
+    margin-top: 4px;
+    display: inline-block;
+    background-color: #f1eded;
+    padding: 0 4px;
+    color: @default-gray-color;
+    border-radius: 2px;
+    font-size: 12px;
+
+    .wx-orca-emoji__img {
+      vertical-align: -6px;
+    }
+  }
+
+  .orca-chat-item__operations a {
+    color: #F56C6C;
+    font-size: 13px;
+  }
+}
+
+.gift-msg-item__msg {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+
+  span {
+    color: #E6A23C;
+    margin-right: 14px;
+  }
+
+  .gift-icon {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

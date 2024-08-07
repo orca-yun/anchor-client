@@ -1,0 +1,95 @@
+.chat-manage-panel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .module-wrapper__header {
+    flex: 0 0 auto;
+  }
+
+  .module-wrapper__content {
+    flex: 1 0 0;
+
+    .ant-spin-nested-loading {
+      height: 100%;
+
+      .ant-spin-container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+
+  &__chats {
+    background: #FAFAFA;
+    flex: 1 0 0;
+    padding: 12px;
+  }
+
+  &__actions {
+    padding: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px -6px 8px 0px rgba(0,0,0,0.1);
+
+    .input-wrapper {
+      flex: 1 0 0;
+      border-radius: 100px;
+      background: #EEEEEE;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      overflow: hidden;
+      margin-right: 12px;
+      padding: 0 0 0 6px;
+
+      .ant-input {
+        flex: 1 0 0;
+        background: #EEEEEE;
+        border: unset !important;
+
+        &.ant-input-outlined:focus {
+          box-shadow: unset !important;
+        }
+      }
+
+      .emoji-icon {
+        display: inline-block;
+        margin: 0 14px;
+        width: 20px;
+        height: 20px;background-image: url(../../assets/icon/emoji.png);
+      }
+
+      .send-btn {
+        cursor: pointer;
+        color: #FFF;
+        padding: 6px 16px;
+        flex: 0 0 auto;
+        background: linear-gradient( 153deg, #04BAF3 0%, #256EE7 96%);
+      }
+    }
+
+    .ant-input-group-addon {
+      padding: 0 2px;
+
+      .ant-tooltip-open {
+        width: 60px !important;
+      }
+    }
+
+    .actions {
+      margin-left: 12px;
+      flex: 0 0 auto;
+      display: flex;
+      align-items: center;
+
+      .ant-space-item {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
