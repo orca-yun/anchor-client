@@ -26,11 +26,11 @@
 
 - [直播后端服务](https://github.com/orca-yun/living)
 
-- [基础服务-视频直播](联系+V: beat_ping 索取)
+- [基础服务-视频直播](联系+V: pink-hello 索取)
 
-- [基础服务-白板服务](联系+V: beat_ping 索取)
+- [基础服务-白板服务](联系+V: pink-hello 索取)
 
-- [基础服务-动弹服务](联系+V: beat_ping 索取)
+- [基础服务-动弹服务](联系+V: pink-hello 索取)
 
 
 ## Demo 地址
